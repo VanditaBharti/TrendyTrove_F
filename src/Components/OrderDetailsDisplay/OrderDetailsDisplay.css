@@ -1,0 +1,68 @@
+.orderdetails{
+    margin: 20px 170px;
+    background: rgb(209, 179, 246);
+    height: 70vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 10px; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.place-details-left{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.place-details-fields{
+    font-size:25px ;
+}
+
+.place-details-fields input{
+    height: 50px;
+    width: 100%;
+    padding-left: 20px;
+    border : 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 25px;
+
+}
+
+.multi-fields{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.address-details{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.place-details-city{
+    display: flex;
+    gap: 20px;
+    height: 50px;
+    width: 100%;
+}
+
+.place-details-city input{
+    height: 50px;
+    width: 100%;
+}
+
+.place-details-fields button{
+    width: 270px;
+    height: 58px;
+    outline: none;
+    border: none;
+    background: #ff5a5a;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.orderplace{
+    
+    margin: 20px 170px;
+    background: rgb(124, 170, 211);
+    
+    height: 70vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
