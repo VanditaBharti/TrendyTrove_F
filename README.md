@@ -15,6 +15,7 @@ This project is a simple e-commerce application built using React and CSS. It se
 
    
    bash
+   
    git clone https://github.com/Vaani0304/trendytrove.git
    cd trendytrove
    
@@ -23,6 +24,7 @@ This project is a simple e-commerce application built using React and CSS. It se
 
    
    bash
+   
    npm install
    
 
@@ -30,6 +32,7 @@ This project is a simple e-commerce application built using React and CSS. It se
 
    
    bash
+   
    npm start
    
 
