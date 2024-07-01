@@ -76,4 +76,6 @@ This project is a simple e-commerce application built using React and CSS. It se
 
 I am Vandita Bharti, a passionate developer currently working on TrendyTrove. My goal is to create engaging and user-friendly experiences through front-end development. I am dedicated to improving this project and exploring backend development in the near future.
 
-## Let me connect you with my linkdin :- https://www.linkedin.com/posts/vandita-bharti-4137a1230_trendytrove-your-ultimate-e-commerce-activity-7213527964284510209-Cj26?utm_source=share&utm_medium=member_android
+## Posts
+
+Let me connect you with my linkdin :- https://www.linkedin.com/posts/vandita-bharti-4137a1230_trendytrove-your-ultimate-e-commerce-activity-7213527964284510209-Cj26?utm_source=share&utm_medium=member_android
