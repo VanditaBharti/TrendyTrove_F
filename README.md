@@ -64,14 +64,17 @@ This project is a simple e-commerce application built using React and CSS. It se
 - Vandita Bharti:
 
   Sec- H
+  
   Email id- vanditabh5@gmail.com
 - Shubhi Dwivedi :
 
   Sec- G
+  
   Email id- shubhid258@gmail.com
 - Divyanshi Bhatt
 
   Sec- C
+  
   Email id- bhattdivyanshi379@gmail.com
 
 
