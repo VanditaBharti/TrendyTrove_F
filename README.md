@@ -63,13 +63,16 @@ This project is a simple e-commerce application built using React and CSS. It se
 
 - Vandita Bharti:
 
-  University Rollno. :- 22015002959
+  Sec- H
+  Email id- vanditabh5@gmail.com
 - Shubhi Dwivedi :
 
-  University Rollno. :- 22015002892
+  Sec- G
+  Email id- shubhid258@gmail.com
 - Divyanshi Bhatt
 
-  University Rollno. :- 22015002583
+  Sec- C
+  Email id- bhattdivyanshi379@gmail.com
 
 
 ## About Me
