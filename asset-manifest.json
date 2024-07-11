@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TrendyTrove_F/static/css/main.c851f7f8.css",
-    "main.js": "/TrendyTrove_F/static/js/main.9200f09e.js",
+    "main.css": "/TrendyTrove_F/static/css/main.dd06e3fc.css",
+    "main.js": "/TrendyTrove_F/static/js/main.4a221f0b.js",
     "static/js/453.ba65bd9e.chunk.js": "/TrendyTrove_F/static/js/453.ba65bd9e.chunk.js",
     "static/media/bomb_gown.jpg": "/TrendyTrove_F/static/media/bomb_gown.1ddd8ad919a046247023.jpg",
     "static/media/product_9.jpg": "/TrendyTrove_F/static/media/product_9.95e79a3f941910faea5e.jpg",
@@ -48,18 +48,19 @@
     "static/media/pinterest_icon_R.png": "/TrendyTrove_F/static/media/pinterest_icon_R.8f0c34f44019fff319e4.png",
     "static/media/product_36.jpg": "/TrendyTrove_F/static/media/product_36.85324624293428825a9d.jpg",
     "static/media/product_31.jpg": "/TrendyTrove_F/static/media/product_31.96a815a3a2fef26fd39c.jpg",
+    "static/media/nav_dropdown_icon.png": "/TrendyTrove_F/static/media/nav_dropdown_icon.755707972d2accf436d7.png",
     "static/media/logo_big.jpeg": "/TrendyTrove_F/static/media/logo_big.d67edf94e373d8870141.jpeg",
     "static/media/tt_logo.jpeg": "/TrendyTrove_F/static/media/tt_logo.d67edf94e373d8870141.jpeg",
     "static/media/whatsapp-icon.png": "/TrendyTrove_F/static/media/whatsapp-icon.84f2dae0be208ee9fc2d.png",
     "static/media/GB_cart.jpg": "/TrendyTrove_F/static/media/GB_cart.d055954e64da0d16c2ad.jpg",
     "static/media/instagram_icon.jpg": "/TrendyTrove_F/static/media/instagram_icon.04f4afb7610ff3d03a90.jpg",
     "index.html": "/TrendyTrove_F/index.html",
-    "main.c851f7f8.css.map": "/TrendyTrove_F/static/css/main.c851f7f8.css.map",
-    "main.9200f09e.js.map": "/TrendyTrove_F/static/js/main.9200f09e.js.map",
+    "main.dd06e3fc.css.map": "/TrendyTrove_F/static/css/main.dd06e3fc.css.map",
+    "main.4a221f0b.js.map": "/TrendyTrove_F/static/js/main.4a221f0b.js.map",
     "453.ba65bd9e.chunk.js.map": "/TrendyTrove_F/static/js/453.ba65bd9e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c851f7f8.css",
-    "static/js/main.9200f09e.js"
+    "static/css/main.dd06e3fc.css",
+    "static/js/main.4a221f0b.js"
   ]
 }
