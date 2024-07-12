@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/TrendyTrove_F/static/css/main.09831107.css",
+    "main.css": "/TrendyTrove_F/static/css/main.f8edb3ca.css",
     "main.js": "/TrendyTrove_F/static/js/main.4a221f0b.js",
     "static/js/453.ba65bd9e.chunk.js": "/TrendyTrove_F/static/js/453.ba65bd9e.chunk.js",
     "static/media/bomb_gown.jpg": "/TrendyTrove_F/static/media/bomb_gown.1ddd8ad919a046247023.jpg",
@@ -55,12 +55,12 @@
     "static/media/GB_cart.jpg": "/TrendyTrove_F/static/media/GB_cart.d055954e64da0d16c2ad.jpg",
     "static/media/instagram_icon.jpg": "/TrendyTrove_F/static/media/instagram_icon.04f4afb7610ff3d03a90.jpg",
     "index.html": "/TrendyTrove_F/index.html",
-    "main.09831107.css.map": "/TrendyTrove_F/static/css/main.09831107.css.map",
+    "main.f8edb3ca.css.map": "/TrendyTrove_F/static/css/main.f8edb3ca.css.map",
     "main.4a221f0b.js.map": "/TrendyTrove_F/static/js/main.4a221f0b.js.map",
     "453.ba65bd9e.chunk.js.map": "/TrendyTrove_F/static/js/453.ba65bd9e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.09831107.css",
+    "static/css/main.f8edb3ca.css",
     "static/js/main.4a221f0b.js"
   ]
 }
