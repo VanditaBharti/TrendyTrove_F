@@ -5,6 +5,7 @@
     width: 280px;
 }
 .item p{
+    font-size: 20px;
     margin: 2px 0px;
 }
 .item-prices{
@@ -13,12 +14,12 @@
 }
 .item-price-new{
     color: #374151;
-    font-size: 40x;
+    font-size: 25px;
     font-weight: 600;
 }
 .item-price-old{
     color: #8c8c8c;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 500;
     text-decoration: line-through;
 
@@ -72,5 +73,21 @@
     }
     .item img{
         width: 160px;
+    }
+    .item p{
+        font-size: 16px;
+        
+    }
+    .item-price-new{
+        color: #374151;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .item-price-old{
+        color: #8c8c8c;
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: line-through;
+    
     }
 }
