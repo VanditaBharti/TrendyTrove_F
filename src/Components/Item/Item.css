@@ -32,38 +32,51 @@
 @media(max-width:1280px){
     .item{
         width: 220px;
-        font-size: 14px;
+    }
+    .item p{
+        font-size: 18px;
     }
     .item img{
         width: 220px;
     }
     .item-price-old{
-        font-size: 14px;
+        font-size: 18px;
+    }
+    .item-price-new{
+        font-size: 18px;
     }
 }
 @media(max-width:1024px){
     .item{
         width: 170px;
-        font-size: 13px;
-
+    }
+    .item p{
+        font-size: 14px;
     }
     .item img{
         width: 170px;
     }
     .item-price-old{
-        font-size: 13px;
+        font-size: 14px;
+    }
+    .item-price-new{
+        font-size: 14px;
     }
 }
 @media(max-width:800px){
     .item{
         width: 120px;
+    }
+    .item p{
         font-size: 12px;
-
     }
     .item img{
         width: 120px;
     }
     .item-price-old{
+        font-size: 12px;
+    }
+    .item-price-new{
         font-size: 12px;
     }
 }
