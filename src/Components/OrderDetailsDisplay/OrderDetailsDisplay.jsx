@@ -1,60 +1,7 @@
-// import React from "react";
-// import "./OrderDetailsDisplay.css";
-// import { Link } from "react-router-dom";
-
-// const OrderDetailsDisplay = () => {
-//   return (
-//     <div>
-//       <div className="orderdetails">
-//         <form action="#" method="GET">
-//           <div className="place-details-fields">
-//             <div className="place-details-left">
-//               <p>Delivery Information</p>
-//             </div>
-//             <br />
-
-//             <div className="multi-fields">
-//               <label for="first name">Contact Details</label>
-//               <input type="text" name="name" placeholder="Name" />
-//               <input type="tel" placeholder="Phone No." name="phone"/>
-//               <br />
-
-//               <div className="address-details">
-//                 <label for="last name">Address:</label>
-//                 <input
-//                   type="address"
-//                   placeholder="Address(House no, Building, street, Area)" name="address"
-//                 />
-
-//                 <input type="text" placeholder="Locality/Town" name="town"/>
-
-//                 <div className="place-details-city">
-//                   <input type="text" placeholder="City" name="city"/>
-//                   <input type="text" placeholder="State" name="state"/>
-//                 </div>
-
-                
-//                   <input type="text" placeholder="Pin code" name="pin"/>
-                
-//               </div>
-//             </div>
-//             <br />
-
-//             <Link to='/orderplaced'>
-//               <button>PLACE ORDER</button>
-//             </Link>
-//           </div>
-//         </form>
-//       </div>
-//     </div>
-//   );
-// };
-// export default OrderDetailsDisplay;
-
 
 import React, { useState } from "react";
 import "./OrderDetailsDisplay.css";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const OrderDetailsDisplay = () => {
   const [formData, setFormData] = useState({
@@ -64,29 +11,30 @@ const OrderDetailsDisplay = () => {
     town: "",
     city: "",
     state: "",
-    pin: ""
+    pin: "",
   });
 
   const [error, setError] = useState("");
+  const [formValid, setFormValid] = useState(false);
 
   const handleChange = (e) => {
+    const { name, value } = e.target;
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
+      [name]: value,
     });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     const { name, phone, address, town, city, state, pin } = formData;
-    
+
     if (!name || !phone || !address || !town || !city || !state || !pin) {
       setError("Please fill all the details.");
+      setFormValid(false);
     } else {
       setError("");
-      // Add your form submission logic here, for example, redirect to the order placed page
-      window.location.href = "/orderplaced";
-      // <Link to={"/orderplaced"}></Link>
+      setFormValid(true);
     }
   };
 
@@ -108,6 +56,7 @@ const OrderDetailsDisplay = () => {
                 placeholder="Name"
                 value={formData.name}
                 onChange={handleChange}
+                required
               />
               <input
                 type="tel"
@@ -115,6 +64,7 @@ const OrderDetailsDisplay = () => {
                 name="phone"
                 value={formData.phone}
                 onChange={handleChange}
+                required
               />
               <br />
 
@@ -126,14 +76,15 @@ const OrderDetailsDisplay = () => {
                   name="address"
                   value={formData.address}
                   onChange={handleChange}
+                  required
                 />
-
                 <input
                   type="text"
                   placeholder="Locality/Town"
                   name="town"
                   value={formData.town}
                   onChange={handleChange}
+                  required
                 />
 
                 <div className="place-details-city">
@@ -143,6 +94,7 @@ const OrderDetailsDisplay = () => {
                     name="city"
                     value={formData.city}
                     onChange={handleChange}
+                    required
                   />
                   <input
                     type="text"
@@ -150,6 +102,7 @@ const OrderDetailsDisplay = () => {
                     name="state"
                     value={formData.state}
                     onChange={handleChange}
+                    required
                   />
                 </div>
 
@@ -159,14 +112,21 @@ const OrderDetailsDisplay = () => {
                   name="pin"
                   value={formData.pin}
                   onChange={handleChange}
+                  required
                 />
               </div>
             </div>
             <br />
+            
+            {error && <p className="error-message">{error}</p>}
 
-            {error && <p className="error">{error}</p>}
-
-            <button type="submit">PLACE ORDER</button>
+            {formValid ? (
+              <Link to='/orderplaced'>
+                <button type="button">PLACE ORDER</button>
+              </Link>
+            ) : (
+              <button type="submit">PLACE ORDER</button>
+            )}
           </div>
         </form>
       </div>
@@ -175,3 +135,73 @@ const OrderDetailsDisplay = () => {
 };
 
 export default OrderDetailsDisplay;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import React from "react";
+// import "./OrderDetailsDisplay.css";
+// import { Link } from "react-router-dom";
+
+// const OrderDetailsDisplay = () => {
+//   return (
+//     <div>
+//       <div className="orderdetails">
+//         <form action="#" method="GET">
+//           <div className="place-details-fields">
+//             <div className="place-details-left">
+//               <p>Delivery Information</p>
+//             </div>
+//             <br />
+
+//             <div className="multi-fields">
+//               <label for="first name">Contact Details</label>
+//               <input type="text" name="name" placeholder="Name" required/>
+//               <input type="tel" placeholder="Phone No." name="phone" required/>
+//               <br />
+
+//               <div className="address-details">
+//                 <label for="last name">Address:</label>
+//                 <input
+//                   type="address"
+//                   placeholder="Address(House no, Building, street, Area)" name="address"
+//                   required
+//                 />
+
+//                 <input type="text" placeholder="Locality/Town" name="town" required/>
+
+//                 <div className="place-details-city">
+//                   <input type="text" placeholder="City" name="city" required/>
+//                   <input type="text" placeholder="State" name="state" required/>
+//                 </div>
+
+                
+//                   <input type="text" placeholder="Pin code" name="pin" required/>
+                
+//               </div>
+//             </div>
+//             <br />
+
+//             <Link to='/orderplaced'>
+//               <button>PLACE ORDER</button>
+//             </Link>
+//           </div>
+//         </form>
+//       </div>
+//     </div>
+//   );
+// };
+// export default OrderDetailsDisplay;
+
+
