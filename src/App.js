@@ -9,8 +9,8 @@ import Cart from './Pages/Cart';
 import OrderDetails from './Pages/OrderDetails';
 import Footer from './Components/Footer/Footer';
 import OrderPlaced from './Pages/OrderPlaced';
-import banner_men  from './Components/Assets/banner_men.png'
-import banner_women from  './Components/Assets/banner_women.png'
+import banner_men  from './Components/Assets/banner_men1.jpeg'
+import banner_women from  './Components/Assets/banner_women1.jpeg'
 import banner_accessories from './Components/Assets/banner_accessories.png'
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
     <div >
       <BrowserRouter> 
       <Navbar />
+      
       <Routes>
         <Route path='/' element={<Shop/>} />
         <Route path='/mens' element={<ShopCategory banner={banner_men} category="men" />} />
